@@ -2,6 +2,8 @@
 
 A single client side script to backup your entire conversation history on [chat.openai.com](https://chat.openai.com). The output is a single JSON file of your history.
 
+> **🔓 Open Source Project**: This project is, was, and will always be completely open source and free for everyone. Built by the community, for the community.
+
 ## 🎯 Choose Your Backup Method
 
 ### Option A: Specific Conversation (Recommended)
