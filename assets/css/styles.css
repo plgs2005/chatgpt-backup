@@ -229,6 +229,18 @@ html {
     border-color: var(--border-medium);
 }
 
+.github-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-left: 0.25rem;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.github-link:hover .github-label {
+    opacity: 1;
+}
+
 .header-right {
     display: flex;
     align-items: center;
@@ -509,17 +521,6 @@ html {
     background-color: var(--bg-tertiary);
     margin-right: 2rem;
     border-left: 3px solid var(--neutral-600);
-}
-
-background-color: var(--bg-tertiary);
-margin-left: 2rem;
-border-left: 4px solid var(--accent-primary);
-}
-
-.message.assistant {
-    background-color: var(--bg-secondary);
-    margin-right: 2rem;
-    border-left: 4px solid var(--success-color);
 }
 
 .message-icon {
